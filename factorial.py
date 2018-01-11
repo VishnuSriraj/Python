@@ -4,7 +4,7 @@ n=int(input('Enter a value:\n'))
 fact=1
 Factorial=[]
 if n<0:
-    print("Sorry, no factorial for negative number.\n")
+    print("Sorry, no factorial for a negative number.\n")
 
 elif n==0:
     print("Factorial is 1.\n")
@@ -14,4 +14,5 @@ else:
          fact=fact*i
          Factorial.append(fact)
     print("Factorial of",n,"is",fact,"\n")
-    print("The list of factorial of all numbers from 1 upto the given number:\n",Factorial)
+#optional
+    print("The list of factorial of all numbers starting from 1 upto the given number:\n",Factorial)
